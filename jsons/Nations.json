@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Biak",
+		"leaderName": "Kurabesi",
+		"adjective": ["Biak"],
+		"startBias": ["Coast","Crab"],
+		"preferredVictoryType": "Domination",
+		//"favoredReligion": "Islam",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "!",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": "?",
+
+		"neutralHello": ".",
+		"hateHello": "!",
+		"tradeRequest": ".",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "People of the Reef",
+		"uniques": ["[+2 Food, +1 Production] from every [Atoll]", 
+					"[+2 Food, +1 Production] from every [Pearls]", 
+					"[+2 Food, +1 Production] from every [Crab]"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	}
+]

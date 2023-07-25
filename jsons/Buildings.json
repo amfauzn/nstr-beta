@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Rumsram",
+		"replaces": "Barracks",
+		"uniqueTo": "Biak",
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", 
+					"All newly-trained [Archery] units [in this city] receive the [Logistics] promotion", 
+					"All newly-trained [Siege] units [in this city] receive the [Logistics] promotion", 
+					"All newly-trained [Melee Water] units [in this city] receive the [Logistics] promotion", 
+					"All newly-trained [Ranged Water] units [in this city] receive the [Logistics] promotion", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+]

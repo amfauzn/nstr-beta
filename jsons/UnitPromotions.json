@@ -5,7 +5,7 @@
 	},
 	{
 		"name": "Raider of the East",
-		"uniques": ["[+20]% Strength <vs cities>", 
-					"Earn [33]% of the damage done to [City] units as [Gold]"]
+		"uniques": ["[+25]% Strength <vs [Water] units>", 
+					"Earn [50]% of the damage done to [Water] units as [Gold]"]
 	}
 ]

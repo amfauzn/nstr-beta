@@ -1,4 +1,5 @@
 [
+	// Biak
 	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
@@ -26,4 +27,81 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
+	
+	// Wajo
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Matoa",
+		"unitType": "Civilian",
+		"uniqueTo": "Wajo",
+		"replaces": "Great Merchant",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
+					"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+					"May enter foreign tiles without open borders", 
+					"[+2] Movement <when [Embarked]>", 
+					"[1] Movement point cost to disembark", 
+					"Great Person - [Gold]", 
+					"Unbuildable", 
+					"Uncapturable"],
+		"movement": 2
+	},
+	
+	// Malacca
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Java Arquebus",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Malacca",
+		"replaces": "Musketman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"uniques": ["Cheaper to buy"],
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"hurryCostModifier": -25,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Seri Bija Diraja",
+		"unitType": "Civilian",
+		"uniqueTo": "Malacca",
+		"replaces": "Great General",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+					"[+15]% Strength bonus for [Military] units within [2] tiles",
+					"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+					"Can transform to [Laksamana]", 
+					"Great Person - [War]", 
+					"Unbuildable", 
+					"Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Laksamana",
+		"unitType": "Civilian Water",
+		"uniques": ["[+30]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+					"Can transform to [Great General]", 
+					"Great Person - [Navy]", 
+					"Unbuildable", 
+					"Uncapturable",],
+		"movement": 6
+	}
 ]

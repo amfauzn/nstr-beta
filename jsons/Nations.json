@@ -30,5 +30,92 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	}
+	},
+	
+	{
+		"name": "Wajo",
+		"leaderName": "La Salewangeng",
+		"adjective": ["Wajoq"],
+		"startBias": ["Coast","Lakes"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": "?",
+		"introduction": "!",
+
+		"neutralHello": "!",
+		"hateHello": "?",
+		"tradeRequest": "?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"uniqueName": "Lontara of Right",
+		"uniques": ["[Great Merchant] is earned [75]% faster <while the empire is happy>", 
+					"[+2 Production] from each Trade Route <after discovering [Guilds]>", 
+					"[+1 Food] from every [Lakes]"],
+		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
+    },
+	
+	{
+		"name": "Malacca",
+		"leaderName": "Mansur Shah",
+		"adjective": ["Malaccan"],
+		"startBias": ["Coast"],
+		//"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": ".",
+		"attacked": "!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": "?",
+		"hateHello": "?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+		"uniqueName": "Undang-Undang Laut Melaka",
+		"uniqueText": "+50% yields from Improvement on Coastal tiles near City center, except Great Improvement\n +2 Gold  per each type of Luxury resource owned",
+		"uniques": ["[+50]% Yield from every [Improvement] <in [Coastal] tiles> <with [1] to [6] neighboring [City center] tiles>", 
+					"[+2 Gold] <with [Citrus]>", 
+					"[+2 Gold] <with [Copper]>", 
+					"[+2 Gold] <with [Cotton]>", 
+					"[+2 Gold] <with [Dyes]>", 
+					"[+2 Gold] <with [Furs]>", 
+					"[+2 Gold] <with [Gems]>", 
+					"[+2 Gold] <with [Gold Ore]>", 
+					"[+2 Gold] <with [Incense]>", 
+					"[+2 Gold] <with [Ivory]>", 
+					"[+2 Gold] <with [Marble]>", 
+					"[+2 Gold] <with [Salt]>", 
+					"[+2 Gold] <with [Silk]>", 
+					"[+2 Gold] <with [Silver]>", 
+					"[+2 Gold] <with [Spices]>", 
+					"[+2 Gold] <with [Sugar]>", 
+					"[+2 Gold] <with [Truffles]>", 
+					"[+2 Gold] <with [Wine]>", 
+					"[+2 Gold] <with [Crab]>", 
+					"[+2 Gold] <with [Pearls]>", 
+					"[+2 Gold] <with [Whales]>", 
+					"[+2 Gold] <with [Jewelry]>", 
+					"[+2 Gold] <with [Porcelain]>"],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
 ]

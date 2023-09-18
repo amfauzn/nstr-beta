@@ -53,55 +53,33 @@
 		"movement": 2
 	},
 	
-	// Malacca
+	// Batak
 	{
-		"name": "Musketman",
-		"unitType": "Gunpowder",
+		"name": "Pikeman",
+		"unitType": "Sword",
 		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	},
 	{
-		"name": "Java Arquebus",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Malacca",
-		"replaces": "Musketman",
+		"name": "Parangan",
+		"unitType": "Sword",
+		"uniqueTo": "Batak",
+		"replaces": "Pikeman",
 		"movement": 2,
-		"strength": 22,
-		"cost": 120,
-		"requiredTech": "Gunpowder",
-		"uniques": ["Cheaper to buy"],
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"hurryCostModifier": -25,
-		"attackSound": "shot"
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+					"Double movement in [Marsh]", 
+					"Double movement in [Fresh water]"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	},
-	{
-		"name": "Seri Bija Diraja",
-		"unitType": "Civilian",
-		"uniqueTo": "Malacca",
-		"replaces": "Great General",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
-					"[+15]% Strength bonus for [Military] units within [2] tiles",
-					"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-					"Can transform to [Laksamana]", 
-					"Great Person - [War]", 
-					"Unbuildable", 
-					"Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Laksamana",
-		"unitType": "Civilian Water",
-		"uniques": ["[+30]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-					"Can transform to [Great General]", 
-					"Great Person - [Navy]", 
-					"Unbuildable", 
-					"Uncapturable",],
-		"movement": 6
-	}
 ]

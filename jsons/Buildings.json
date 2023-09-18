@@ -50,4 +50,29 @@
 					"Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
+	
+	// Batak
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Jabu Bolon",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Batak",
+		"culture": 3,
+		"faith": 2,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
 ]

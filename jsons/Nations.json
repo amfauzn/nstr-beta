@@ -66,11 +66,12 @@
     },
 	
 	{
-		"name": "Batak",
-		"leaderName": "Sisingamangaraja",
-		"adjective": ["Batak"],
-		"startBias": ["Marsh","Fresh water"],
-		"preferredVictoryType": "Cultural",
+		"name": "Kaimana",
+		"leaderName": "Naro'e",
+		"adjective": ["Papuan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		//"favouredReligion": "Taoism",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -84,14 +85,79 @@
 		"hateHello": "?",
 		"tradeRequest": "?",
 
-        "outerColor": [202, 34, 33],
-        "innerColor": [250,200,200],
-		"uniqueName": "Tano Batak",
-		"uniques": ["[+1 Culture] from [Marsh] tiles [in all cities]", 
-					"[+1 Culture] from [Fresh water] tiles [in all cities]"],
-		"cities": ["Bakkara","Dolok Sanggul","Kabanjahe","Berastagi","Merek","Pangururan","Siallagan","Sigulatti","Tomok","Parapat",
-			"Pematangsiantar","Sidamanik","Balige","Parmonangan","Sitorang"],
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+		"uniqueName": "Eraam Moon",
+		"uniqueText": "+1 [Culture] from every Improvement on Hill \n+1 [Faith] from every Mountain",
+		"uniques": ["[+1 Culture] from every [Improvement] <in [Hill] tiles>", 
+					"[+1 Faith] from every [Mountain]", 
+					"Gain [100] [Gold] <upon gaining a [Orang Kaya] unit>"],
+		"cities": ["Kaimana","Namatota","Argun","Marsi","Simora","Lawairawu","Matua","Bitsjari","Lobo","Aiduma",
+			"Lahakia","Kilimala","Karawatu","Borombouw","Wanggita","Bahumia","Sermuku","Tairi","Esania","Murubia",
+			"Gaka","Guriasa","Kambala","Nusawulan","Karas","Weri","Tunas Gain","Babo","Kuri"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+    },
+	
+	{
+		"name": "Sunda",
+		"leaderName": "Siliwangi",
+		"adjective": ["Sundanese"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Hinduism",
 
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "!",
+		"attacked": "!",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+		"uniqueName": "Seren Taun",
+		"uniqueText": "Cities produce 20% more [Culture] and [Gold] during We Love The King Day \n+1 [Food] from every Shrine and Temple",
+		"uniques": ["[+20]% [Culture] [in all cities] <during We Love The King Day>", 
+					"[+20]% [Faith] [in all cities] <during We Love The King Day>", 
+					"[+1 Culture] from every [Shrine]", 
+					"[+1 Culture] from every [Temple]"],
+		"cities": ["Pakuan Pajajaran","Kawali","Saunggalah","Kalapa","Kutamaya","Majalengka","Banten","Kampung Naga","Galunggung","Garut",
+			"Cirebon","Kanekes","Batujaya","Tasikmalaya","Pulasiri","Cigugur","Cianjur","Ciampea","Pangandaran","Cigede",
+			"Bojong Menje","Cipari","Cimahi","Cicatih","Sumedang","Ciamis","Kuningan","Sukabumi","Karangtengah","Cihampelas"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	
+	{
+		"name": "Cirebon",		// 1447 - 1679
+		"leaderName": "Sunan Gunungjati",
+		"adjective": ["Cirebonese"],
+		"startBias": ["Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": "!",
+		"tradeRequest": "?",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Puser Bumi",
+		"uniques": ["[+50]% Natural religion spread [in annexed cities]", 
+					"[+50]% Natural religion spread [in puppeted cities]"],
+		"cities": ["Cirebon","Indramayu","Majalengka","Kuningan","Karawang","Pisangan","Tanjung Suwung","Gunung Jati","Sembung","Sarindil",
+			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
 ]

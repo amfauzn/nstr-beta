@@ -53,7 +53,47 @@
 		"movement": 2
 	},
 	
-	// Batak
+	// Kaimana
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sabakor",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Kaimana",
+		"replaces": "Rifleman",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"promotions": ["Woodsman"],
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Orang Kaya",
+		"unitType": "Civilian",
+		"uniqueTo": "Kaimana",
+		"replaces": "Great Merchant",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
+					"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
+					"Immediately gain 100 Gold upon gained", 
+					"Great Person - [Gold]", 
+					"Unbuildable", 
+					"Uncapturable"],
+		"movement": 2
+	},
+	
+	// Sunda
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
@@ -67,19 +107,47 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Parangan",
+		"name": "Bareusan Pangawinan",
 		"unitType": "Sword",
-		"uniqueTo": "Batak",
+		"uniqueTo": "Sunda",
 		"replaces": "Pikeman",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
-					"Double movement in [Marsh]", 
-					"Double movement in [Fresh water]"],
+					"[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	// Cirebon
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Kemantren",
+		"unitType": "Sword",
+		"uniqueTo": "Cirebon",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"uniques": ["Start with 15 Experience"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 ]

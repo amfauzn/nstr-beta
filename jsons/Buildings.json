@@ -51,28 +51,51 @@
 		"requiredTech": "Compass"
 	},
 	
-	// Batak
+	// Sunda
 	{
-		"name": "Amphitheater",
-		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
+		"name": "Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", 
+					"Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
+		"maintenance": 1,
+		"requiredTech": "Theology"
 	},
 	{
-		"name": "Jabu Bolon",
-		"replaces": "Amphitheater",
-		"uniqueTo": "Batak",
-		"culture": 3,
+		"name": "Kabuyutan",
+		"replaces": "Garden",
+		"uniqueTo": "Sunda",
+		"faith": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[+25]% Great Person generation [in this city]", 
+					"[+1 Science] <after discovering [Astronomy]>",
+					"Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	
+	// Cirebon
+	{
+		"name": "Temple",
 		"faith": 2,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
+		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", 
+					"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Tajug",
+		"replaces": "Temple",
+		"uniqueTo": "Cirebon",
+		"faith": 2,
+		"cost": 40,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", 
+					"Destroyed when the city is captured"]
 	},
 ]

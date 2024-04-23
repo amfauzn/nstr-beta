@@ -1,31 +1,29 @@
 [
-	// Biak
+	// Demak
 	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>", 
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there", 
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"religiousStrength": 1000
 	},
 	{
-		"name": "Warion",
-		"unitType": "Melee Water",
-		"uniqueTo": "Biak",
-		"replaces": "Trireme",
+		"name": "Wali",
+		"unitType": "Civilian",
+		"uniqueTo": "Demak",
+		"replaces": "Missionary",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>", 
+            "May enter foreign tiles without open borders", 
+			"Can be purchased for [200] [Faith] [in all cities]", 
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
 		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
-		"promotions": ["[Warion] ability","Raider of the East"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"religiousStrength": 1000
 	},
 	
 	// Wajo
@@ -86,14 +84,14 @@
 		"replaces": "Great Merchant",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
 					"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
-					"Immediately gain 100 Gold upon gained", 
+					"Comment [Immediately gain 100 Gold upon gained]", 
 					"Great Person - [Gold]", 
 					"Unbuildable", 
 					"Uncapturable"],
 		"movement": 2
 	},
 	
-	// Sunda
+	// Tondo
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
@@ -107,18 +105,19 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Bareusan Pangawinan",
+		"name": "Maharlika",
 		"unitType": "Sword",
-		"uniqueTo": "Sunda",
+		"uniqueTo": "Tondo",
 		"replaces": "Pikeman",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
-					"[+15]% Strength <when fighting in [Friendly Land] tiles>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
+					"This Unit upgrades for free including special upgrades <upon entering the [Renaissance era]>", 
+					"Comment [Upgrades to [Musketman]]"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 	
@@ -144,7 +143,7 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"uniques": ["Start with 15 Experience"],
+		"uniques": ["Comment [Start with 15 Experience]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",

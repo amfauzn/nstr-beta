@@ -1,11 +1,11 @@
 [
 	{
-		"name": "Demak", // 1475–1554
-		"leaderName": "Trenggana",
-		"adjective": ["Javanese"],
+		"name": "Nias",
+		"leaderName": "Saönigeho",
+		"adjective": ["Nias"],
 		"startBias": ["Coast"],
 		//"preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Islam",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -21,13 +21,22 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"uniqueName": "Faithful Expansion",
-		"uniques": ["Free [Settler] appears <upon founding a Religion>", 
-					"[+2 Culture] [in all cities] <in cities with an enhanced religion>"],
-		"cities": ["Demak","Jepara","Kudus","Rembang","Tingkir","Pajang","Ampel","Gresik","Bangkalan","Mojokerto",
-			"Semarang","Pati","Prawoto","Lasem","Juwana","Tuban","Jipang","Kadiri","Madura","Madiun",
-			"Surabaya","Sidoarjo","Lamongan","Pasuruan","Malang","Sengguruh","Panarukan","Brebes","Cirebon","Banten"],
-        "spyNames": ["Patah","Unus","Penangsang","Ngudung","Fatahillah","Hadiwijaya","Bayat","Kusen","Pandan Arang","Ratna Kencana"]
+		"uniqueName": "Owasa",
+		"uniques": ["[+1 Food] from every [Cattle] <hidden from users>", 
+					"[+1 Food] from every [Deer] <hidden from users>", 
+					"[+1 Food] from every [Sheep] <hidden from users>", 
+					"[+1 Food] from every [Water Buffalo] <hidden from users>", 
+					"Comment [+1 [Food] from every Animal Bonus resource]", 
+					"[+1 Food] from every [Cattle] <during a Golden Age> <hidden from users>", 
+					"[+1 Food] from every [Deer] <during a Golden Age> <hidden from users>", 
+					"[+1 Food] from every [Sheep] <during a Golden Age> <hidden from users>", 
+					"[+1 Food] from every [Water Buffalo] <during a Golden Age> <hidden from users>", 
+					"Comment [+1 [Food] more during a Golden Age]", 
+					"Gain a free [Fahombo counter] [in all cities] <hidden from users>", 
+					"[Gold] cost of purchasing [Fahombo Artisan] units [-100]% <hidden from users>"],
+		"cities": ["Bawömataluo","Teluk Dalam","Orahili","Gunungsitoli","Gidö","Lotu","Lahomi","Balöhalu","Sölago Tanö","Sitolu Ori",
+			"Sidua'ori","Ma'u","Simolo-molo","Sogaeadu","Idanogawo","Hiliserangkai","Botomuzoi","Bawolato","Ulugawo","Hiliduho"],
+        "spyNames": ["Maenamölo","Mendrofa","Bu'ulölö","Manaö","Zebua","Dorkas","Ya'atulo","Dona","Sowa'a","Suahasil"]
 	},
 	
 	{
@@ -96,7 +105,7 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
     },
 	
-	{
+	/*{
 		"name": "Tondo", // 900 - 1589
 		"leaderName": "Kalangitan",
 		"adjective": ["Tondonese"],
@@ -140,7 +149,7 @@
 			"Binondo","Pasay","Kainta","Puliran","Kumintang","Paila","Yamagtogon","Pandakan","Tangway","Kandawe",
 			"Morong","Tayabas","Malatarlak","Katanghalan","Baybay","Omaghikon","Binwangan","Pakil","Meykatmon","Sawangan"],
         "spyNames": ["Banuk","Daway","Angayaw","Bugna","Bagani","Hilway","Marikit","Lamitan","Tersayang","Amaya"]
-    },
+    },*/
 	
 	{
 		"name": "Cirebon",		// 1447 - 1679

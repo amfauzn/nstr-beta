@@ -1,29 +1,41 @@
 [
 	// Demak
 	{
-		"name": "Missionary",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>", 
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there", 
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
-		"movement": 4,
-		"religiousStrength": 1000
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
 	},
 	{
-		"name": "Wali",
+		"name": "Burusa Spearman",
+		"unitType": "Sword",
+		"uniqueTo": "Nias",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 48,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["[Burusa Spearman] ability"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Fahombo Artisan",
 		"unitType": "Civilian",
-		"uniqueTo": "Demak",
-		"replaces": "Missionary",
-		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>", 
-            "May enter foreign tiles without open borders", 
-			"Can be purchased for [200] [Faith] [in all cities]", 
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
-			"Takes your religion over the one in their birth city"],
-		"movement": 4,
-		"religiousStrength": 1000
+		"movement": 2,
+		"cost": 1,
+		"uniques": ["Can instantly construct a [Fahombo] improvement <by consuming this unit>", 
+					"Only available <with [FahomboLimiter]>", 
+					"Uncapturable", 
+					"Will not be displayed in Civilopedia"]
 	},
 	
 	// Wajo
@@ -89,36 +101,6 @@
 					"Unbuildable", 
 					"Uncapturable"],
 		"movement": 2
-	},
-	
-	// Tondo
-	{
-		"name": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Maharlika",
-		"unitType": "Sword",
-		"uniqueTo": "Tondo",
-		"replaces": "Pikeman",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
-					"This Unit upgrades for free including special upgrades <upon entering the [Renaissance era]>", 
-					"Comment [Upgrades to [Musketman]]"],
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit"
 	},
 	
 	// Cirebon

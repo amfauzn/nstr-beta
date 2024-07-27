@@ -134,7 +134,6 @@
 					"Comment [Each [Settler] gained will spawn [Worker]]", 
 					"May not annex cities", 
 					"May buy items in puppet cities", 
-					"Comment [+2 population in founded cities]", 
 					"[+3 Science] [in capital] <for every [1000] [Gold]>", 
 					"[{Military} {Land}] units gain the [Hulubalang Training] promotion <hidden from users>"],
 		"cities": ["Singapore"],

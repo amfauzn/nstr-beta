@@ -2,5 +2,15 @@
 	{
 		"name": "[Burusa Spearman] ability",
 		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
-	}
+	},
+	{
+		"name": "SingleCity",
+		"uniques": ["This Unit takes [100] damage <upon turn end> <if [Palace] is constructed>", 
+					"Will not be displayed in Civilopedia"]
+    }
+	{
+		"name": "Hulubalang Training",
+		"uniques": ["This Unit gains [1] XP <upon ending a turn in a [All] tile> <when adjacent to a [Hulubalang] unit> <in [Friendly Land] tiles>", 
+					"Will not be displayed in Civilopedia"]
+    }
 ]

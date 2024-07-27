@@ -36,6 +36,31 @@
 		"requiredTech": "Compass"
 	},
 	
+	// Singapore
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Hawker Centre",
+		"uniqueTo": "Singapore",
+		"replaces": "Market",
+		"food": 2,
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+2 Gold] [in capital]"]
+		"requiredTech": "Currency",
+		"civilopediaText": [
+			{"text": "An open-air complex built to provide a more sanitary alternative to mobile hawker carts and contain many stalls that sell different varieties of affordable meals. Dedicated tables and chairs are usually provided for diners.The centres are usually managed by a governing authority which maintains the facility and rents out stores for hawkers to ply their goods."},
+		]
+	}
+	
 	// Cirebon
 	{
 		"name": "Temple",

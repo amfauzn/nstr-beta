@@ -103,6 +103,35 @@
 		"movement": 2
 	},
 	
+	// Singapore
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Hulubalang",
+		"unitType": "Civilian",
+		"uniqueTo": "Singapore",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Comment [Adjacent Land units in Friendly Land tiles gain 1 XP per turn]",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 2
+	}
+	
 	// Cirebon
 	{
 		"name": "Longswordsman",

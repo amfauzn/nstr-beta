@@ -105,13 +105,13 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
     },
 	
-	/*{
-		"name": "Tondo", // 900 - 1589
-		"leaderName": "Kalangitan",
-		"adjective": ["Tondonese"],
-		"startBias": ["Avoid [Desert]"],
+	{
+		"name": "Singapore",	// 1299 - 
+		"leaderName": "Sang Nila Utama",
+		"adjective": ["Singaporean"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Buddhism",
+		//"favoredReligion": "Islam",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -127,29 +127,19 @@
 
 		"outerColor": [255, 252, 3],
 		"innerColor": [83, 0, 208],
-		"uniqueName": "Bayanihan",
-		"uniques": ["[+1 Gold, +1 Happiness] [in all cities] <on foreign continents>", 
-					"Comment [National Wonders constructed in capital will move to new capital when captured by enemies]", 
-					"Comment [National Wonders project and [Grand Temple] does not affected]", 
-					"Instantly provides [1] [CM mover] <upon constructing [Circus Maximus] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [NC mover] <upon constructing [National College] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [NE mover] <upon constructing [National Epic] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [HE mover] <upon constructing [Heroic Epic] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [OU mover] <upon constructing [Oxford University] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [IW mover] <upon constructing [Ironworks] [in capital]> <hidden from users>", 
-					"Instantly provides [1] [HM mover] <upon constructing [Hermitage] [in capital]> <hidden from users>", 
-					"Gain a free [Circus Maximus] [in capital] <when above [0] [CM mover]> <hidden from users>", 
-					"Gain a free [National College] [in capital] <when above [0] [NC mover]> <hidden from users>", 
-					"Gain a free [National Epic] [in capital] <when above [0] [NE mover]> <hidden from users>", 
-					"Gain a free [Heroic Epic] [in capital] <when above [0] [HE mover]> <hidden from users>", 
-					"Gain a free [Oxford University] [in capital] <when above [0] [OU mover]> <hidden from users>", 
-					"Gain a free [Ironworks] [in capital] <when above [0] [IW mover]> <hidden from users>", 
-					"Gain a free [Hermitage] [in capital] <when above [0] [HM mover]> <hidden from users>"],
-		"cities": ["Tondo","Namayan","Maynila","Bitukang Manok","Sunog-Apog","Maysapan","Tagig","Nabotas","Sampalok","Mandaluyong",
-			"Binondo","Pasay","Kainta","Puliran","Kumintang","Paila","Yamagtogon","Pandakan","Tangway","Kandawe",
-			"Morong","Tayabas","Malatarlak","Katanghalan","Baybay","Omaghikon","Binwangan","Pakil","Meykatmon","Sawangan"],
+		"uniqueName": "Lord of the Three Worlds",
+		"uniques": ["Cannot build [Settler] units", 
+					"[Settler] units gain the [SingleCity] promotion <hidden from users>", 
+					"Free [Worker] appears <upon gaining a [Settler] unit> <hidden from users>", 
+					"Comment [Each [Settler] gained will spawn [Worker]]", 
+					"May not annex cities", 
+					"May buy items in puppet cities", 
+					"Comment [+2 population in founded cities]", 
+					"[+3 Science] [in capital] <for every [1000] [Gold]>", 
+					"[{Military} {Land}] units gain the [Hulubalang Training] promotion <hidden from users>"],
+		"cities": ["Singapore"],
         "spyNames": ["Banuk","Daway","Angayaw","Bugna","Bagani","Hilway","Marikit","Lamitan","Tersayang","Amaya"]
-    },*/
+    },
 	
 	{
 		"name": "Cirebon",		// 1447 - 1679

@@ -33,7 +33,10 @@
 					"Comment [Unlock 1 Merchant specialist]", 
 					"All newly-trained [Water] units [in this city] receive the [Mobility] promotion", 
 					"Must be next to [Coast]"],
-		"requiredTech": "Compass"
+		"requiredTech": "Compass",
+		"civilopediaText": [
+			{"text": "A multipurpose building used as a storage of war tools and produce of the Wajo Kingdom."},
+		]
 	},
 	
 	// Singapore
@@ -54,7 +57,8 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Gold] [in capital]"]
+		"uniques": ["[+2 Food, +1 Gold] from [Great Improvement] tiles [in all cities]",
+					"Only available <in [Capital] cities>"]
 		"requiredTech": "Currency",
 		"civilopediaText": [
 			{"text": "An open-air complex built to provide a more sanitary alternative to mobile hawker carts and contain many stalls that sell different varieties of affordable meals. Dedicated tables and chairs are usually provided for diners.The centres are usually managed by a governing authority which maintains the facility and rents out stores for hawkers to ply their goods."},
@@ -81,8 +85,11 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", 
-					"Destroyed when the city is captured"]
+					"Destroyed when the city is captured"],
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": "Tajug means small mosque in Sundanese. The first tajug was Tajug Jalagrahan. It was built on the initiative of Ki Danusela's son-in-law, Prince Walasungsang."},
+		]
 	},
 ]

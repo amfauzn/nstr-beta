@@ -64,12 +64,10 @@
 		"uniques": ["[Great Merchant] is earned [75]% faster <while the empire is happy>", 
 					"[+2 Production] from each Trade Route <after discovering [Guilds]>", 
 					"[+1 Food] from every [Lakes]"],
-		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
-			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
-			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
-			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
-			"Patras","Lamia","Nafplion","Apolyton"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
+		"cities": ["Tosora","Cinnotabi'","Séngkang","Pitumpanua","Paria","Passoloreng","Kéra","Pénrang","Totinco","Palippu",
+			"Rumpia","Macanang","Gilireng","Sakkoli","Akkoténgeng","Kalola","Ana'banua","Loa","Bélawa Orai","Bélawa Alau'",
+			"Data","Impakimpa'","Empaga","Témpé","Wagé"],
+        "spyNames": ["La Tenribali","Pateddungi","Tiringeng","Paléwo","Tadampare'","Mungkace'","Sangkuru","Tenrilai","Palili'",		"Maddukelleng"]
     },
 	
 	{
@@ -102,7 +100,7 @@
 		"cities": ["Kaimana","Namatota","Argun","Marsi","Simora","Lawairawu","Matua","Bitsjari","Lobo","Aiduma",
 			"Lahakia","Kilimala","Karawatu","Borombouw","Wanggita","Bahumia","Sermuku","Tairi","Esania","Murubia",
 			"Gaka","Guriasa","Kambala","Nusawulan","Karas","Weri","Tunas Gain","Babo","Kuri"],
-        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+        "spyNames": ["Imaga","Basir Onin","Woran","Syarif Muaz","Samai","Nduvin","Wai","Lutu","Koviai Bata","Ahmad Aituarauw"]
     },
 	
 	{
@@ -134,11 +132,10 @@
 					"Comment [Each [Settler] gained will spawn [Worker]]", 
 					"May not annex cities", 
 					"May buy items in puppet cities", 
-					"Comment [+2 population in founded cities]", 
 					"[+3 Science] [in capital] <for every [1000] [Gold]>", 
 					"[{Military} {Land}] units gain the [Hulubalang Training] promotion <hidden from users>"],
 		"cities": ["Singapore"],
-        "spyNames": ["Banuk","Daway","Angayaw","Bugna","Bagani","Hilway","Marikit","Lamitan","Tersayang","Amaya"]
+        "spyNames": ["Pikrama","Rana","Batisah","Rohan","Indranee","Halim","Yusof","Kuan Yew","Hook Siew","Bo Seng"]
     },
 	
 	{

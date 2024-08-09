@@ -92,4 +92,17 @@
 			{"text": "Tajug means small mosque in Sundanese. The first tajug was Tajug Jalagrahan. It was built on the initiative of Ki Danusela's son-in-law, Prince Walasungsang."},
 		]
 	},
+	
+	// Johor
+	{
+		"name": "CoastalStrength",
+		"cityStrength": 5,
+		"uniques": ["Unbuildable", 
+					"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Origin",
+		"uniques": ["Unbuildable", 
+					"Never destroyed when the city is captured"]
+	},
 ]

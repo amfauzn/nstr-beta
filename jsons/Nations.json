@@ -166,4 +166,73 @@
 			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
+	{
+		"name": "Johor",	// 1528–1855
+		"leaderName": "Alaudin Riayat Shah II",
+		"adjective": ["Johorean"],
+		"startBias": ["Coast"],
+		//"preferredVictoryType": "Cultural",
+		"favoredReligion": "Islam",
+
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+
+        "declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+		"uniqueName": "Malaccan Rump State",
+		"uniques": ["Comment [+5 Strength for Coastal cities]", 
+					"Comment [Recaptured cities produce 50% more [Gold] and [Culture]]", 
+					"Gain a free [CoastalStrength] [in all coastal cities] <hidden from users>", 
+					"Gain a free [Origin] [in this city] <upon founding a city> <hidden from users>", 
+					"[+50]% [Gold] [in puppeted cities] <in cities with a [Origin]> <hidden from users>", 
+					"[+50]% [Culture] [in puppeted cities] <in cities with a [Origin]> <hidden from users>", 
+					"[+50]% [Gold] [in annexed cities] <in cities with a [Origin]> <hidden from users>", 
+					"[+50]% [Culture] [in annexed cities] <in cities with a [Origin]> <hidden from users>"],
+		"cities": ["Johor Bahru","Muar","Batu Pahat","Kluang","Tangkak","Kota Kara","Pekan Tua","Sayong Pinang","Johor Lama","Bukit Seluyut",
+			"Batu Sawar","Bintan","Lingga","Tambelan","Kota Tinggi","Tanjung Pinang","Panchor","Pahang","Pekan","Singapore."],
+        "spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
+    },
+	{
+		"name": "Igorot",
+		"leaderName": "Aliguyon",
+		"adjective": ["Igorot"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Scientific",
+		//"favoredReligion": "Christianity",
+
+        "startIntroPart1": ".",
+        "startIntroPart2": "?",
+
+        "declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": "!",
+		"hateHello": "?!",
+		"tradeRequest": "?",
+		"outerColor": [239, 180, 0],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Between Summit and Sky",
+		"uniques": ["[+1 Food] from every [Mountain]", 
+					"Comment [Foot unit may pass through impassable tiles]", 
+					"[Civilian] units gain the [Highlander] promotion <hidden from users>", 
+					"[Scout] units gain the [Highlander] promotion <hidden from users>", 
+					"[Sword] units gain the [Highlander] promotion <hidden from users>", 
+					"[Gunpowder] units gain the [Highlander] promotion <hidden from users>", 
+					"[Archery] units gain the [Highlander] promotion <hidden from users>", 
+					"[Ranged Gunpowder] units gain the [Highlander] promotion <hidden from users>"],
+		"cities": ["Baguio","Tabuk","Bangued","Kabugao","La Trinidad","Lagawe","Bontoc","Itogon","Mankayan","Aguinaldo",
+			"Pinukpuk","Tublay","Luna","Paracelis","Tineg","Balbalan","Alfonso Lista","Bakun","Flora","Buguias",
+			"Banaue","Atok","Kabayan","Hungduan","Lamut","Mayoyao","Pudtol","Natonin","Conner"],
+        "spyNames": ["Whang-Od","Tagaypa","Aginaya","Bugan","Dumulao","Amtalao","Pangaiwan","Pumbakhayon","Fangued","Lumawig"]
+    },
 ]

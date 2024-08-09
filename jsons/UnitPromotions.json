@@ -7,10 +7,14 @@
 		"name": "SingleCity",
 		"uniques": ["This Unit takes [100] damage <upon turn end> <if [Palace] is constructed>", 
 					"Will not be displayed in Civilopedia"]
-    }
+    },
 	{
 		"name": "Hulubalang Training",
 		"uniques": ["This Unit gains [1] XP <upon ending a turn in a [All] tile> <when adjacent to a [Hulubalang] unit> <in [Friendly Land] tiles>", 
 					"Will not be displayed in Civilopedia"]
+    },
+	{
+		"name": "Highlander",
+		"uniques": ["Can pass through impassable tiles"]
     }
 ]

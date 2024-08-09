@@ -1,67 +1,49 @@
 [
 	
-	// Sumatra and Malay Peninsula
+	// Nias
+	{
+		"name": "Fahombo",
+		"uniqueTo": "Nias",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 2,
+		"production": 2,
+		"uniques": [
+			"Must be next to [City center]",
+			"Cannot be built on [Luxury resource] tiles",
+			"Consumes [1] [FahomboLimiter] <hidden from users>",
+			"Comment [Limited to amount of cities]",
+			"[+2 Culture] <after discovering [Archaeology]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "N"
+	}
 	
-		// Nias
-		{
-			"name": "Fahombo",
-			"uniqueTo": "Nias",
-			"terrainsCanBeBuiltOn": ["Land"],
-			"culture": 2,
-			"production": 2,
-			"uniques": ["Must be next to [City center]",
-						"Cannot be built on [Luxury resource] tiles",
-						"Consumes [1] [FahomboLimiter] <hidden from users>",
-						"Comment [Limited to amount of cities]",
-						"[+2 Culture] <after discovering [Archaeology]>",
-						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Construction",
-			"shortcutKey": "N"
-		}
-	
-	// Borneo
-		
-		// Kutai Martadipura
-		{
-			"name": "Yupa",
-			"uniqueTo": "Kutai",
-			"terrainsCanBeBuiltOn": ["Land"],
-			"science": 1,
-			"turnsToBuild": 8,
-			"uniques": ["[+1 Culture] for each adjacent [Pasture]", 
-						"[+1 Culture, +1 Science] <after discovering [Archaeology]>", 
-						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Writing",
-			"shortcutKey": "Y"
-		},
-		
-		// Banjar
-		{
-			"name": "Floating Market",
-			"uniqueTo": "Banjar",
-			"terrainsCanBeBuiltOn": ["Lakes","Flood plains"],
-			"gold": 1,
-			"uniques": ["[+1 Food, +1 Gold] <after discovering [Economics]>", 
-						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Guilds",
-			"shortcutKey": "T"
-		},
-		
-	// Sulawesi
-	
-		// Luwu
-		{
-			"name": "Bubung Parani",
-			"uniqueTo": "Luwu",
-			"terrainsCanBeBuiltOn": ["Grassland","Plains"],
-			"production": 1,
-			"turnsToBuild": 4,
-			"uniques": ["[+1 Food] from [Fresh water] tiles", 
-						"[+1 Food] <after discovering [Civil Service]>", 
-						"Can also be built on tiles adjacent to fresh water", 
-						//Cannot be built on [Lamd] tiles <with [1] to [6] neighboring [Bubung Parani] tiles"
-						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Construction",
-			"shortcutKey": "B"
-		}
+	// Igorot
+	{
+		"name": "Payew",
+		"uniqueTo": "Igorot",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Comment [Yield also affected by neighboring improvements, except Great Improvement]", 
+			"Comment [Same improvement does not stack]", 
+            "[+1 Food] <with [1] to [6] neighboring [Farm] tiles> <hidden from users>", 
+			"[+1 Production] <with [1] to [6] neighboring [Lumber mill] tiles> <hidden from users>", 
+			"[+1 Production] <with [1] to [6] neighboring [Mine] tiles> <hidden from users>", 
+			"[+1 Gold] <with [1] to [6] neighboring [Trading post] tiles> <hidden from users>", 
+			"[+1 Gold] <with [1] to [6] neighboring [Camp] tiles> <hidden from users>", 
+			"[+1 Production] <with [1] to [6] neighboring [Oil well] tiles> <hidden from users>", 
+			"[+1 Production] <with [1] to [6] neighboring [Pasture] tiles> <hidden from users>", 
+			"[+1 Gold] <with [1] to [6] neighboring [Plantation] tiles> <hidden from users>", 
+			"[+1 Production] <with [1] to [6] neighboring [Quarry] tiles> <hidden from users>", 
+			"[+1 Food] <with [1] to [6] neighboring [Fishing Boats] tiles> <hidden from users>", 
+			"[+1 Culture] <with [1] to [6] neighboring [Moai] tiles> <hidden from users>", 
+			"[+1 Food] <with [1] to [6] neighboring [Terrace farm] tiles> <hidden from users>", 
+			"[+1 Food] <with [1] to [6] neighboring [Polder] tiles> <hidden from users>", 
+			"[+1 Food] <after discovering [Fertilizer]>", 
+			"Pillaging this improvement yields approximately [+36 Gold]"],
+		"techRequired": "Civil Service",
+		"shortcutKey": "F"
+	},
 ]

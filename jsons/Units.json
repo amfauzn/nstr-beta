@@ -32,10 +32,12 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1,
-		"uniques": ["Can instantly construct a [Fahombo] improvement <by consuming this unit>", 
-					"Only available <with [FahomboLimiter]>", 
-					"Uncapturable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Can instantly construct a [Fahombo] improvement <by consuming this unit>", 
+			"Only available <with [FahomboLimiter]>", 
+			"Uncapturable", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	// Wajo
@@ -52,14 +54,16 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Wajo",
 		"replaces": "Great Merchant",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
-					"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
-					"May enter foreign tiles without open borders", 
-					"[+2] Movement <when [Embarked]>", 
-					"[1] Movement point cost to disembark", 
-					"Great Person - [Gold]", 
-					"Unbuildable", 
-					"Uncapturable"],
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+			"May enter foreign tiles without open borders", 
+			"[+2] Movement <when [Embarked]>", 
+			"[1] Movement point cost to disembark", 
+			"Great Person - [Gold]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	
@@ -94,12 +98,14 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Kaimana",
 		"replaces": "Great Merchant",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
-					"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
-					"Comment [Immediately gain 100 Gold upon gained]", 
-					"Great Person - [Gold]", 
-					"Unbuildable", 
-					"Uncapturable"],
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
+			"Comment [Immediately gain 100 Gold upon gained]", 
+			"Great Person - [Gold]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	
@@ -128,7 +134,8 @@
 			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable",
-			"Uncapturable"],
+			"Uncapturable"
+		],
 		"movement": 2
 	}
 	
@@ -158,6 +165,100 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	
+	// Johor
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Jurubina",
+		"unitType": "Civilian",
+		"uniqueTo": "Johor",
+		"replaces": "Great Engineer",
+		"uniques": [
+			"Can speed up construction of a building", 
+            "Can instantly construct a [Academy] improvement <by consuming this unit>", 
+			"Can instantly construct a [Custums house] improvement <by consuming this unit>", 
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
+            "Great Person - [Production]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Bedar",
+		"unitType": "Melee Water",
+		"uniqueTo": "Johor",
+		"replaces": "Caravel",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight", 
+			"Withdraws before melee combat <with [80]% chance>", 
+			"Heal this unit by [25] HP <costs [+100 Gold] stats>", 
+			"May heal outside of friendly territory <hidden from users>"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	
+	// Igorot
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wasay Axeman",
+		"unitType": "Sword",
+		"uniqueTo": "Igorot",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>", 
+			"[+1] Movement <in [Mountain] tiles>"
+		],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 ]

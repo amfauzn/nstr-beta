@@ -22,21 +22,21 @@
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"uniqueName": "Owasa",
-		"uniques": ["[+1 Food] from every [Cattle] <hidden from users>", 
-					"[+1 Food] from every [Deer] <hidden from users>", 
-					"[+1 Food] from every [Sheep] <hidden from users>", 
-					"[+1 Food] from every [Water Buffalo] <hidden from users>", 
-					"Comment [+1 [Food] from every Animal Bonus resource]", 
-					"[+1 Food] from every [Cattle] <during a Golden Age> <hidden from users>", 
-					"[+1 Food] from every [Deer] <during a Golden Age> <hidden from users>", 
-					"[+1 Food] from every [Sheep] <during a Golden Age> <hidden from users>", 
-					"[+1 Food] from every [Water Buffalo] <during a Golden Age> <hidden from users>", 
-					"Comment [+1 [Food] more during a Golden Age]", 
-					"Gain a free [Fahombo counter] [in all cities] <hidden from users>", 
-					"[Gold] cost of purchasing [Fahombo Artisan] units [-100]% <hidden from users>"],
+		"uniques": [
+			"[+1 Food] from every [Cattle] <hidden from users>",
+			"[+1 Food] from every [Deer] <hidden from users>",
+			"[+1 Food] from every [Sheep] <hidden from users>",
+			"[+1 Food] from every [Water Buffalo] <hidden from users>",
+			"Comment [+1 [Food] from every Animal Bonus resource]",
+			"[+1 Food] from every [Cattle] <during a Golden Age> <hidden from users>",
+			"[+1 Food] from every [Deer] <during a Golden Age> <hidden from users>",
+			"[+1 Food] from every [Sheep] <during a Golden Age> <hidden from users>",
+			"[+1 Food] from every [Water Buffalo] <during a Golden Age> <hidden from users>",
+			"Comment [+1 [Food] more during a Golden Age]"
+		],
 		"cities": ["Bawömataluo","Teluk Dalam","Orahili","Gunungsitoli","Gidö","Lotu","Lahomi","Balöhalu","Sölago Tanö","Sitolu Ori",
 			"Sidua'ori","Ma'u","Simolo-molo","Sogaeadu","Idanogawo","Hiliserangkai","Botomuzoi","Bawolato","Ulugawo","Hiliduho"],
-        "spyNames": ["Maenamölo","Mendrofa","Bu'ulölö","Manaö","Zebua","Dorkas","Ya'atulo","Dona","Sowa'a","Suahasil"]
+		"spyNames": ["Maenamölo","Mendrofa","Bu'ulölö","Manaö","Zebua","Dorkas","Ya'atulo","Dona","Sowa'a","Suahasil"]
 	},
 	
 	{
@@ -61,14 +61,16 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
 		"uniqueName": "Lontara of Right",
-		"uniques": ["[Great Merchant] is earned [75]% faster <while the empire is happy>", 
-					"[+2 Production] from each Trade Route <after discovering [Guilds]>", 
-					"[+1 Food] from every [Lakes]"],
+		"uniques": [
+			"[Great Merchant] is earned [75]% faster <while the empire is happy>",
+			"[+2 Production] from each Trade Route <after discovering [Guilds]>",
+			"[+1 Food] from every [Lakes]"
+		],
 		"cities": ["Tosora","Cinnotabi'","Séngkang","Pitumpanua","Paria","Passoloreng","Kéra","Pénrang","Totinco","Palippu",
 			"Rumpia","Macanang","Gilireng","Sakkoli","Akkoténgeng","Kalola","Ana'banua","Loa","Bélawa Orai","Bélawa Alau'",
 			"Data","Impakimpa'","Empaga","Témpé","Wagé"],
-        "spyNames": ["La Tenribali","Pateddungi","Tiringeng","Paléwo","Tadampare'","Mungkace'","Sangkuru","Tenrilai","Palili'",		"Maddukelleng"]
-    },
+		"spyNames": ["La Tenribali","Pateddungi","Tiringeng","Paléwo","Tadampare'","Mungkace'","Sangkuru","Tenrilai","Palili'",		"Maddukelleng"]
+	},
 	
 	{
 		"name": "Kaimana",
@@ -78,10 +80,10 @@
 		"preferredVictoryType": "Diplomatic",
 		//"favouredReligion": "Taoism",
 
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
-        "declaringWar": ".",
+		"declaringWar": ".",
 		"attacked": "!",
 		"defeated": ".",
 		"introduction": ".",
@@ -90,18 +92,19 @@
 		"hateHello": "?",
 		"tradeRequest": "?",
 
-        "outerColor": [9, 112, 84],
-        "innerColor": [255,255,255],
+		"outerColor": [9, 112, 84],
+		"innerColor": [255,255,255],
 		"uniqueName": "Eraam Moon",
-		"uniqueText": "+1 [Culture] from every Improvement on Hill \n+1 [Faith] from every Mountain",
-		"uniques": ["[+1 Culture] from every [Improvement] <in [Hill] tiles>", 
-					"[+1 Faith] from every [Mountain]", 
-					"Gain [100] [Gold] <upon gaining a [Orang Kaya] unit>"],
+		"uniques": [
+			"[+1 Culture] from every [Improvement] <in [Hill] tiles>",
+			"[+1 Faith] from every [Mountain]",
+			"Gain [100] [Gold] <upon gaining a [Orang Kaya] unit> <hidden from users>"
+		],
 		"cities": ["Kaimana","Namatota","Argun","Marsi","Simora","Lawairawu","Matua","Bitsjari","Lobo","Aiduma",
 			"Lahakia","Kilimala","Karawatu","Borombouw","Wanggita","Bahumia","Sermuku","Tairi","Esania","Murubia",
 			"Gaka","Guriasa","Kambala","Nusawulan","Karas","Weri","Tunas Gain","Babo","Kuri"],
-        "spyNames": ["Imaga","Basir Onin","Woran","Syarif Muaz","Samai","Nduvin","Wai","Lutu","Koviai Bata","Ahmad Aituarauw"]
-    },
+		"spyNames": ["Imaga","Basir Onin","Woran","Syarif Muaz","Samai","Nduvin","Wai","Lutu","Koviai Bata","Ahmad Aituarauw"]
+	},
 	
 	{
 		"name": "Singapore",	// 1299 - 
@@ -111,8 +114,8 @@
 		"preferredVictoryType": "Diplomatic",
 		//"favoredReligion": "Islam",
 
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
 		"declaringWar": "!",
 		"attacked": "!",
@@ -126,17 +129,17 @@
 		"outerColor": [255, 252, 3],
 		"innerColor": [83, 0, 208],
 		"uniqueName": "Lord of the Three Worlds",
-		"uniques": ["Cannot build [Settler] units", 
-					"[Settler] units gain the [SingleCity] promotion <hidden from users>", 
-					"Free [Worker] appears <upon gaining a [Settler] unit> <hidden from users>", 
-					"Comment [Each [Settler] gained will spawn [Worker]]", 
-					"May not annex cities", 
-					"May buy items in puppet cities", 
-					"[+3 Science] [in capital] <for every [1000] [Gold]>", 
-					"[{Military} {Land}] units gain the [Hulubalang Training] promotion <hidden from users>"],
+		"uniques": [
+			"Cannot build [Settler] units", 
+			"[Settler] units gain the [SingleCity] promotion <hidden from users>", 
+			"Free [Worker] appears <upon gaining a [Settler] unit> <hidden from users>", 
+			"Comment [Each [Settler] gained will spawn [Worker]]", 
+			"[+3 Science] [in capital] <for every [1000] [Gold]>", 
+			"[{Military} {Land}] units gain the [Hulubalang Training] promotion <hidden from users>"
+		],
 		"cities": ["Singapore"],
-        "spyNames": ["Pikrama","Rana","Batisah","Rohan","Indranee","Halim","Yusof","Kuan Yew","Hook Siew","Bo Seng"]
-    },
+		"spyNames": ["Pikrama","Rana","Batisah","Rohan","Indranee","Halim","Yusof","Kuan Yew","Hook Siew","Bo Seng"]
+	},
 	
 	{
 		"name": "Cirebon",		// 1447 - 1679
@@ -146,10 +149,10 @@
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Islam",
 
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
-        "declaringWar": ".",
+		"declaringWar": ".",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -160,12 +163,16 @@
 		"outerColor": [109, 2, 0],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Puser Bumi",
-		"uniques": ["[+50]% Natural religion spread [in annexed cities]", 
-					"[+50]% Natural religion spread [in puppeted cities]"],
+		"uniques": [
+			"[+50]% Natural religion spread [in annexed cities]",
+			"[+50]% Natural religion spread [in puppeted cities]",
+			"New [Kemantren] units start with [15] Experience [in all cities] <hidden from users>",
+		],
 		"cities": ["Cirebon","Indramayu","Majalengka","Kuningan","Karawang","Pisangan","Tanjung Suwung","Gunung Jati","Sembung","Sarindil",
 			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],
-        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
-    },
+		"spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+	},
+	
 	{
 		"name": "Johor",	// 1528–1855
 		"leaderName": "Alaudin Riayat Shah II",
@@ -174,10 +181,10 @@
 		//"preferredVictoryType": "Cultural",
 		"favoredReligion": "Islam",
 
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
 
-        "declaringWar": ".",
+		"declaringWar": ".",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -185,33 +192,36 @@
 		"neutralHello": ".",
 		"hateHello": ".",
 		"tradeRequest": ".",
-        "outerColor": [ 38, 98, 255],
-        "innerColor": [239,236,148],
+		"outerColor": [ 38, 98, 255],
+		"innerColor": [239,236,148],
 		"uniqueName": "Malaccan Rump State",
-		"uniques": ["Comment [+5 Strength for Coastal cities]", 
-					"Comment [Recaptured cities produce 50% more [Gold] and [Culture]]", 
-					"Gain a free [CoastalStrength] [in all coastal cities] <hidden from users>", 
-					"Gain a free [Origin] [in this city] <upon founding a city> <hidden from users>", 
-					"[+50]% [Gold] [in puppeted cities] <in cities with a [Origin]> <hidden from users>", 
-					"[+50]% [Culture] [in puppeted cities] <in cities with a [Origin]> <hidden from users>", 
-					"[+50]% [Gold] [in annexed cities] <in cities with a [Origin]> <hidden from users>", 
-					"[+50]% [Culture] [in annexed cities] <in cities with a [Origin]> <hidden from users>"],
+		"uniques": [
+			"Comment [+5 Strength for Coastal cities]",
+			"Comment [Recaptured cities produce 50% more [Gold] and [Culture]]",
+			"Gain a free [CoastalStrength] [in all coastal cities] <hidden from users>",
+			"Gain a free [Origin] [in this city] <upon founding a city> <hidden from users>",
+			"[+50]% [Gold] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Culture] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Gold] [in annexed cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Culture] [in annexed cities] <in cities with a [Origin]> <hidden from users>"
+		],
 		"cities": ["Johor Bahru","Muar","Batu Pahat","Kluang","Tangkak","Kota Kara","Pekan Tua","Sayong Pinang","Johor Lama","Bukit Seluyut",
 			"Batu Sawar","Bintan","Lingga","Tambelan","Kota Tinggi","Tanjung Pinang","Panchor","Pahang","Pekan","Singapore."],
-        "spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
-    },
+		"spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
+	},
+	
 	{
-		"name": "Igorot",
-		"leaderName": "Aliguyon",
-		"adjective": ["Igorot"],
-		"startBias": ["Mountain"],
-		"preferredVictoryType": "Scientific",
+		"name": "Toraja",
+		"leaderName": "Pong Tiku",
+		"adjective": ["Torajan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
 		//"favoredReligion": "Christianity",
 
-        "startIntroPart1": ".",
-        "startIntroPart2": "?",
+		"startIntroPart1": ".",
+		"startIntroPart2": "?",
 
-        "declaringWar": ".",
+		"declaringWar": ".",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -221,18 +231,17 @@
 		"tradeRequest": "?",
 		"outerColor": [239, 180, 0],
 		"innerColor": [0, 0, 0],
-		"uniqueName": "Between Summit and Sky",
-		"uniques": ["[+1 Food] from every [Mountain]", 
-					"Comment [Foot unit may pass through impassable tiles]", 
-					"[Civilian] units gain the [Highlander] promotion <hidden from users>", 
-					"[Scout] units gain the [Highlander] promotion <hidden from users>", 
-					"[Sword] units gain the [Highlander] promotion <hidden from users>", 
-					"[Gunpowder] units gain the [Highlander] promotion <hidden from users>", 
-					"[Archery] units gain the [Highlander] promotion <hidden from users>", 
-					"[Ranged Gunpowder] units gain the [Highlander] promotion <hidden from users>"],
-		"cities": ["Baguio","Tabuk","Bangued","Kabugao","La Trinidad","Lagawe","Bontoc","Itogon","Mankayan","Aguinaldo",
-			"Pinukpuk","Tublay","Luna","Paracelis","Tineg","Balbalan","Alfonso Lista","Bakun","Flora","Buguias",
-			"Banaue","Atok","Kabayan","Hungduan","Lamut","Mayoyao","Pudtol","Natonin","Conner"],
-        "spyNames": ["Whang-Od","Tagaypa","Aginaya","Bugan","Dumulao","Amtalao","Pangaiwan","Pumbakhayon","Fangued","Lumawig"]
-    },
+		"uniqueName": "Rambu Solo'",
+		"uniques": [
+			"[-50]% construction time for [Pasture] improvements",
+			"[-50]% construction time for [Quarry] improvements",
+			"Comment [Perfrom Ma'nene Ritual after every 3 Golden Age - +2 [Food], +2 [Culrure] from every [Pasture] for 5 turns]",
+			"Instantly provides [1] [STP-1] <upon entering a Golden Age> <hidden from users",
+		],
+		"cities": ["Rantepao","Rindingallo","Makale","Bittuang","Mengkendek","Rembon","Gandangbatu Sillanan","Masanda","Saluputi","Bonggakaradeng",
+			"Kurra","Malimbong Balepe","Mappak","Rano","Simbuang","Rantetayo","Sangalla","Buntu Pepasan","Nanggala","Sa'dan",
+			"Dende' Piongan Napo","Sopai","Kapala Pitu","Balusu","Kesu","Rantebua","Sanggalangi","Sesean Suloara'","Tikala","Awan Rante Karua",
+			"Bangkelekila","Buntao","Sesean","Tondon","Baruppu","Tallunglipu"],
+		"spyNames": ["Tambing","Allang","Sambo","Rerung","Massangka","Tondok","Sesean","Bongga","Torro'","Daro"]
+	},
 ]

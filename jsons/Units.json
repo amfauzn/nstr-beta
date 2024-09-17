@@ -1,5 +1,5 @@
 [
-	// Demak
+	// Nias
 	{
 		"name": "Spearman",
 		"unitType": "Sword",
@@ -26,18 +26,6 @@
 		"promotions": ["[Burusa Spearman] ability"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
-	},
-	{
-		"name": "Fahombo Artisan",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 1,
-		"uniques": [
-			"Can instantly construct a [Fahombo] improvement <by consuming this unit>", 
-			"Only available <with [FahomboLimiter]>", 
-			"Uncapturable", 
-			"Will not be displayed in Civilopedia"
-		]
 	},
 	
 	// Wajo
@@ -228,37 +216,53 @@
 		"attackSound": "cannon"
 	},
 	
-	// Igorot
+	// Toraja
 	{
-		"name": "Swordsman",
+		"name": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Wasay Axeman",
+		"name": "Kanta Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "Igorot",
-		"replaces": "Swordsman",
+		"uniqueTo": "Toraja",
+		"replaces": "Spearman",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
+		"strength": 12,
+		"cost": 48,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
 		"uniques": [
-			"Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>", 
-			"[+1] Movement <in [Mountain] tiles>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"Comment [Upon being defeated, Makula' version of Kanta Warrior appears]",
+			"Comment [Makula' version has 2/3 base Strength and invisible in Hill tiles]",
+			"Free [Kanta Warrior (Makula')] appears <upon being defeated> <hidden from users>"
 		],
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Kanta Warrior (Makula')",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 48,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"Unbuildable",
+			"Invisible to non-adjacent units <in [Hill] tiles>",
+			"Will not be displayed in Civilopedia"
+		],
 		"attackSound": "metalhit"
 	},
 ]

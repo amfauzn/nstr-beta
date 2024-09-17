@@ -1,12 +1,15 @@
 [	
 	
-	// Unique resources
+	// Stockpiled resources
 	{
-		"name": "FahomboLimiter",
+		"name": "STP-1",	// Seren taun global, Maximus mover
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 ]

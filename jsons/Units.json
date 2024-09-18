@@ -209,7 +209,7 @@
 		"uniques": [
 			"[+1] Sight", 
 			"Withdraws before melee combat <with [80]% chance>", 
-			"Heal this unit by [25] HP <costs [+100 Gold] stats>", 
+			"[This Unit] heals [25] HP <costs [+100 Gold] stats>", 
 			"May heal outside of friendly territory <hidden from users>"
 		],
 		"hurryCostModifier": 30,
@@ -236,7 +236,7 @@
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 12,
-		"cost": 48,
+		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -253,13 +253,13 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
-		"cost": 48,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
 			"Unbuildable",
+			"Cannot be purchased",
 			"Invisible to non-adjacent units <in [Hill] tiles>",
 			"Will not be displayed in Civilopedia"
 		],

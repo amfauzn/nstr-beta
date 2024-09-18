@@ -132,6 +132,9 @@
 					"[+1 Production] from [Stone] tiles [in this city]",
 					"[+1 Production] from [Marble] tiles [in this city]",
 					"[+1 Culture] from [Hill] tiles [in this city] <within [1] tiles of a [Mountain]>"],
-		"requiredTech": "Calendar"
+		"requiredTech": "Calendar",
+		"civilopediaText": [
+			{"text": "Tau-tau are a type of effigy made of wood or bamboo. The word 'tau' means 'man', and 'tau-tau' means 'men' or 'statue'. The tau-tau are representatives of the deceased, ever-guarding the tombs and ever-protecting the living."},
+		]
 	},
 ]

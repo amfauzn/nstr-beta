@@ -96,45 +96,4 @@
 		"uniques": ["Unbuildable", 
 					"Never destroyed when the city is captured"]
 	},
-	
-	// Toraja
-	{
-		"name": "Ma'nene Ritual",
-		"uniqueTo": "Sunda",
-		"cost": 1,
-		"uniques": ["Only available <when above [3] [STP-1]>",
-					"Remove [Ma'nene Ritual] [in this city]",
-					"Instantly consumes [3] [STP-1]",
-					"[+2 Food, +2 Culture] from every [Pasture] <for [5] turns>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-					"[+1 Production] from [Stone] tiles [in this city]",
-					"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
-	},
-	{
-		"name": "Tau-tau",
-		"replaces": "Stone Works",
-		"uniqueTo": "Toraja",
-		"faith": 2,
-		"maintenance": 0,
-		"hurryCostModifier": 0,
-		"uniques": ["Comment [Can be built in any city]",
-					"[+1 Production] from [Stone] tiles [in this city]",
-					"[+1 Production] from [Marble] tiles [in this city]",
-					"[+1 Culture] from [Hill] tiles [in this city] <within [1] tiles of a [Mountain]>"],
-		"requiredTech": "Calendar",
-		"civilopediaText": [
-			{"text": "Tau-tau are a type of effigy made of wood or bamboo. The word 'tau' means 'man', and 'tau-tau' means 'men' or 'statue'. The tau-tau are representatives of the deceased, ever-guarding the tombs and ever-protecting the living."},
-		]
-	},
 ]

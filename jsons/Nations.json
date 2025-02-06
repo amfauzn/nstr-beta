@@ -209,39 +209,4 @@
 			"Batu Sawar","Bintan","Lingga","Tambelan","Kota Tinggi","Tanjung Pinang","Panchor","Pahang","Pekan","Singapore."],
 		"spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
 	},
-	
-	{
-		"name": "Toraja",
-		"leaderName": "Pong Tiku",
-		"adjective": ["Torajan"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
-		//"favoredReligion": "Christianity",
-
-		"startIntroPart1": ".",
-		"startIntroPart2": "?",
-
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		
-		"neutralHello": "!",
-		"hateHello": "?!",
-		"tradeRequest": "?",
-		"outerColor": [239, 180, 0],
-		"innerColor": [0, 0, 0],
-		"uniqueName": "Rambu Solo'",
-		"uniques": [
-			"[-50]% construction time for [Pasture] improvements",
-			"[-50]% construction time for [Quarry] improvements",
-			"Comment [Perfrom Ma'nene Ritual after every 3 Golden Age - +2 [Food], +2 [Culrure] from every [Pasture] for 5 turns]",
-			"Instantly provides [1] [STP-1] <upon entering a Golden Age> <hidden from users>",
-		],
-		"cities": ["Rantepao","Rindingallo","Makale","Bittuang","Mengkendek","Rembon","Gandangbatu Sillanan","Masanda","Saluputi","Bonggakaradeng",
-			"Kurra","Malimbong Balepe","Mappak","Rano","Simbuang","Rantetayo","Sangalla","Buntu Pepasan","Nanggala","Sa'dan",
-			"Dende' Piongan Napo","Sopai","Kapala Pitu","Balusu","Kesu","Rantebua","Sanggalangi","Sesean Suloara'","Tikala","Awan Rante Karua",
-			"Bangkelekila","Buntao","Sesean","Tondon","Baruppu","Tallunglipu"],
-		"spyNames": ["Tambing","Allang","Sambo","Rerung","Massangka","Tondok","Sesean","Bongga","Torro'","Daro"]
-	},
 ]

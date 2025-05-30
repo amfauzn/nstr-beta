@@ -1,9 +1,5 @@
 [
 	{
-		"name": "[Burusa Spearman] ability",
-		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
-	},
-	{
 		"name": "SingleCity",
 		"uniques": ["[This Unit] takes [100] damage <upon turn end> <if [Palace] is constructed>", 
 					"Will not be displayed in Civilopedia"]

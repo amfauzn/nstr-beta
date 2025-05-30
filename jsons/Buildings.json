@@ -64,7 +64,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", 
+		"uniques": ["Only available <when religion is enabled>", 
 					"Destroyed when the city is captured"]
 	},
 	{
@@ -76,7 +76,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Hidden when religion is disabled", 
+		"uniques": ["Only available <when religion is enabled>", 
 					"Destroyed when the city is captured"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [

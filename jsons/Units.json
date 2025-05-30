@@ -1,33 +1,4 @@
 [
-	// Nias
-	{
-		"name": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Burusa Spearman",
-		"unitType": "Sword",
-		"uniqueTo": "Nias",
-		"replaces": "Spearman",
-		"movement": 2,
-		"strength": 11,
-		"cost": 48,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"promotions": ["[Burusa Spearman] ability"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
-	
 	// Wajo
 	{
 		"name": "Great Merchant",
@@ -173,7 +144,7 @@
 		"uniques": [
 			"Can speed up construction of a building", 
             "Can instantly construct a [Academy] improvement <by consuming this unit>", 
-			"Can instantly construct a [Custums house] improvement <by consuming this unit>", 
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
             "Great Person - [Production]", 

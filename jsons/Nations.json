@@ -1,43 +1,5 @@
 [
-	{
-		"name": "Nias",
-		"leaderName": "Saönigeho",
-		"adjective": ["Nias"],
-		"startBias": ["Coast"],
-		//"preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "!",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": "?",
-
-		"neutralHello": ".",
-		"hateHello": "!",
-		"tradeRequest": ".",
-
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"uniqueName": "Owasa",
-		"uniques": [
-			"[+1 Food] from every [Cattle] <hidden from users>",
-			"[+1 Food] from every [Deer] <hidden from users>",
-			"[+1 Food] from every [Sheep] <hidden from users>",
-			"[+1 Food] from every [Water Buffalo] <hidden from users>",
-			"Comment [+1 [Food] from every Animal Bonus resource]",
-			"[+1 Food] from every [Cattle] <during a Golden Age> <hidden from users>",
-			"[+1 Food] from every [Deer] <during a Golden Age> <hidden from users>",
-			"[+1 Food] from every [Sheep] <during a Golden Age> <hidden from users>",
-			"[+1 Food] from every [Water Buffalo] <during a Golden Age> <hidden from users>",
-			"Comment [+1 [Food] more during a Golden Age]"
-		],
-		"cities": ["Bawömataluo","Teluk Dalam","Orahili","Gunungsitoli","Gidö","Lotu","Lahomi","Balöhalu","Sölago Tanö","Sitolu Ori",
-			"Sidua'ori","Ma'u","Simolo-molo","Sogaeadu","Idanogawo","Hiliserangkai","Botomuzoi","Bawolato","Ulugawo","Hiliduho"],
-		"spyNames": ["Maenamölo","Mendrofa","Bu'ulölö","Manaö","Zebua","Dorkas","Ya'atulo","Dona","Sowa'a","Suahasil"]
-	},
+	
 	
 	{
 		"name": "Wajo",
@@ -166,7 +128,7 @@
 		"uniques": [
 			"[+50]% Natural religion spread [in annexed cities]",
 			"[+50]% Natural religion spread [in puppeted cities]",
-			"New [Kemantren] units start with [15] Experience [in all cities] <hidden from users>",
+			"New [Kemantren] units start with [15] XP [in all cities] <hidden from users>",
 		],
 		"cities": ["Cirebon","Indramayu","Majalengka","Kuningan","Karawang","Pisangan","Tanjung Suwung","Gunung Jati","Sembung","Sarindil",
 			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],

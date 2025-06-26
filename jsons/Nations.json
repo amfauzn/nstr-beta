@@ -1,37 +1,164 @@
 [
-	
+	{
+		"name": "Asmat",
+		"leaderName": "Fumeripits",
+		"adjective": ["Asmat"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+		"uniqueName": "Wow-Ipits",
+		"uniques": [
+			"Free [Great Artist] appears",
+			"[+25]% Golden Age length"
+		],
+		"cities": ["Agats","Suru-suru","Suator","Fayit","Safan","Pulau Tiga","Sawa Erma","Kopay","Aswi","Atsj",
+			"Pantai Kasuari","Kolf Braza","Jetsy","Sirets","Koroway Buluanop","Tomor Birip","Betcbamu","Joutu","Unir Sirau","Joerat",
+			"Der Koumur","Ayip","Awyu","Sor Ep","Akat"],
+        "spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
+	},
 	
 	{
-		"name": "Wajo",
-		"leaderName": "La Salewangeng",
-		"adjective": ["Wajoq"],
-		"startBias": ["Coast","Lakes"],
-		"preferredVictoryType":"Diplomatic",
+		"name": "Cirebon", // 1447 - 1679
+		"leaderName": "Sunan Gunungjati",
+		"adjective": ["Cirebonese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": "?",
-		"introduction": "!",
-
-		"neutralHello": "!",
-		"hateHello": "?",
-		"tradeRequest": "?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"uniqueName": "Lontara of Right",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Puser Bumi",
 		"uniques": [
-			"[Great Merchant] is earned [75]% faster <while the empire is happy>",
-			"[+2 Production] from each Trade Route <after discovering [Guilds]>",
-			"[+1 Food] from every [Lakes]"
+			"[+50]% Natural religion spread [in annexed cities]",
+			"[+50]% Natural religion spread [in puppeted cities]",
+			"New [Kemantren] units start with [15] XP [in all cities] <hidden from users>",
 		],
-		"cities": ["Tosora","Cinnotabi'","Séngkang","Pitumpanua","Paria","Passoloreng","Kéra","Pénrang","Totinco","Palippu",
-			"Rumpia","Macanang","Gilireng","Sakkoli","Akkoténgeng","Kalola","Ana'banua","Loa","Bélawa Orai","Bélawa Alau'",
-			"Data","Impakimpa'","Empaga","Témpé","Wagé"],
-		"spyNames": ["La Tenribali","Pateddungi","Tiringeng","Paléwo","Tadampare'","Mungkace'","Sangkuru","Tenrilai","Palili'",		"Maddukelleng"]
+		"cities": ["Cirebon","Indramayu","Majalengka","Kuningan","Karawang","Pisangan","Tanjung Suwung","Gunung Jati","Sembung","Sarindil",
+			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],
+		"spyNames": ["Walangsungsang","Janapura","Sarjawala","Maulana Hasanuddin","Arifin","Kamuning","Fatahillah","Zainul","Gayam","Giriliya"]
+	},
+	
+		{
+		"name": "Dayak",
+		"leaderName": "Leader",
+		"adjective": ["Dayaknese"],
+		"startBias": ["Jungle","Fresh water"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Ngayau",
+		"uniques": [
+			"[{Military} {Land}] units gain the [Ngayau] promotion",
+			"[+1 Food] from every [Jungle]"
+		],
+		"cities": ["Puruk Cahu","Buntuk","Marabahan","Matarapura","Saripoi","Skrang","Kerangan Peris","Muara Teweh","Puruk Cahu","Buntuk",
+			"Bangkanai","Muara Montalat","Saripoi","Sadok Hill","Sintang","Mari Mari","Sikan","Putussibau","Kalanaman","Mamahak"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
+	},
+	
+	{
+		"name": "Ivatan",
+		"leaderName": "Aman Dangat",
+		"adjective": ["Batanense"],
+		"startBias": ["Coast"],
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"denounced": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [239, 180, 0],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Rawod",
+		"uniques": [
+			"Comment [+50% Yield in tiles with [Fort] not adjacent to another [Fort]]",
+			"Comment [+150% Yield in tiles with [Citadel] and [Ijang]]",
+			"[+50]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles> <hidden from users>",
+			"[+150]% Yield from every [Land] <in [Citadel] tiles> <hidden from users>",
+			"[+150]% Yield from every [Land] <in [Ijang] tiles> <hidden from users>"
+		],
+		"cities": ["Malakdang","Sabtang","Chavayan","Savidug","Basco","Chanarian","Kayhuvokan","Itbayat","Ivana","Radiwan",
+			"Salagao","Mahatao","Diura","Kaumbakan","Panatayan","Uyugan","Imnajbu","Itbud"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
+	},
+	
+	{
+		"name": "Johor", // 1528–1855
+		"leaderName": "Alaudin Riayat Shah II",
+		"adjective": ["Johorean"],
+		"startBias": ["Coast"],
+		//"preferredVictoryType": "Cultural",
+		"favoredReligion": "Islam",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [ 38, 98, 255],
+		"innerColor": [239,236,148],
+		"uniqueName": "Rising Rump State",
+		"uniques": [
+			"Comment [Recaptured cities produce 50% more [Gold] and [Culture]]",
+			"Gain a free [Origin] [in this city] <upon founding a city> <hidden from users>",
+			"[+50]% [Gold] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Culture] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Gold] [in annexed cities] <in cities with a [Origin]> <hidden from users>",
+			"[+50]% [Culture] [in annexed cities] <in cities with a [Origin]> <hidden from users>",
+			"[-25]% maintenance cost for [All] buildings [in all coastal cities]"
+		],
+		"cities": ["Johor Bahru","Muar","Batu Pahat","Kluang","Tangkak","Kota Kara","Pekan Tua","Sayong Pinang","Johor Lama","Bukit Seluyut",
+			"Batu Sawar","Bintan","Lingga","Tambelan","Kota Tinggi","Tanjung Pinang","Panchor","Pahang","Pekan","Singapore."],
+		"spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
 	},
 	
 	{
@@ -40,27 +167,33 @@
 		"adjective": ["Papuan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
-		//"favouredReligion": "Taoism",
+		"favouredReligion": "Islam",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": ".",
-		"attacked": "!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
 		
-		"neutralHello": "?",
-		"hateHello": "?",
-		"tradeRequest": "?",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
 
 		"outerColor": [9, 112, 84],
 		"innerColor": [255,255,255],
 		"uniqueName": "Eraam Moon",
 		"uniques": [
-			"[+1 Culture] from every [Improvement] <in [Hill] tiles>",
-			"[+1 Faith] from every [Mountain]",
-			"Gain [100] [Gold] <upon gaining a [Orang Kaya] unit> <hidden from users>"
+			"Comment [Capital city start with +2 population]",
+			"[+2] population [in capital] <upon constructing [Palace]> <hidden from users>",
+			"Comment [Gain [Culture] boost upon constructing [Culture] buildings in capital]",
+			"Gain [30] [Culture] <(modified by game speed)> <upon constructing [Monument] [in capital]> <hidden from users>",
+			"Gain [30] [Culture] <(modified by game speed)> <upon constructing [Masigi] [in capital]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in capital]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in capital]> <hidden from users>",
+			"Gain [225] [Culture] <(modified by game speed)> <upon constructing [Museum] [in capital]> <hidden from users>",
+			"Gain [375] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in capital]> <hidden from users>"
 		],
 		"cities": ["Kaimana","Namatota","Argun","Marsi","Simora","Lawairawu","Matua","Bitsjari","Lobo","Aiduma",
 			"Lahakia","Kilimala","Karawatu","Borombouw","Wanggita","Bahumia","Sermuku","Tairi","Esania","Murubia",
@@ -104,71 +237,62 @@
 	},
 	
 	{
-		"name": "Cirebon",		// 1447 - 1679
-		"leaderName": "Sunan Gunungjati",
-		"adjective": ["Cirebonese"],
-		"startBias": ["Avoid [Forest]"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Islam",
+		"name": "Soppeng",
+		"leaderName": "La Mataesso",
+		"adjective": ["Buginese"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"denounced": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [70, 0, 118],
+		"innerColor": [240, 199, 0],
+		"uniqueName": "Mabbulo Peppa",
+		"uniques": ["[-33]% Unhappiness from [Population] [in all cities]"],
+		"cities": ["Watansoppeng","Lalabata","Liliriaja","Lilirilau","Citta","Donri Donri","Ganra","Marioriawa","Marioriwawo","Bila",
+			"Botto","Lapajung","Lemba","Ompo","Salokaraja","Appanang","Galung","Jennae","Cabenge","Macanre",
+			"Pajalesang","Ujung","Attang Salo","Batu-Batu","Kaca","Limpomajang","Manorang Salo","Labessi","Tettikenrarae"],
+        "spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
+    },
+	
+	{
+		"name": "Wajo",
+		"leaderName": "La Salewangeng",
+		"adjective": ["Wajoq"],
+		"startBias": ["Coast","Lakes"],
+		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
 		"declaringWar": ".",
 		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		
-		"neutralHello": ".",
-		"hateHello": "!",
+		"defeated": "?",
+		"introduction": "!",
+
+		"neutralHello": "!",
+		"hateHello": "?",
 		"tradeRequest": "?",
-		"outerColor": [109, 2, 0],
-		"innerColor": [255, 255, 255],
-		"uniqueName": "Puser Bumi",
-		"uniques": [
-			"[+50]% Natural religion spread [in annexed cities]",
-			"[+50]% Natural religion spread [in puppeted cities]",
-			"New [Kemantren] units start with [15] XP [in all cities] <hidden from users>",
-		],
-		"cities": ["Cirebon","Indramayu","Majalengka","Kuningan","Karawang","Pisangan","Tanjung Suwung","Gunung Jati","Sembung","Sarindil",
-			"Ciwaringin","Gempol","Palimanan","Kedondong","Talang","Purwakarta","Subang","Kawali","Rajagaluh","Kutamaya"],
-		"spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
-	},
-	
-	{
-		"name": "Johor",	// 1528–1855
-		"leaderName": "Alaudin Riayat Shah II",
-		"adjective": ["Johorean"],
-		"startBias": ["Coast"],
-		//"preferredVictoryType": "Cultural",
-		"favoredReligion": "Islam",
 
-		"startIntroPart1": " ",
-		"startIntroPart2": " ",
-
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
-		"outerColor": [ 38, 98, 255],
-		"innerColor": [239,236,148],
-		"uniqueName": "Malaccan Rump State",
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"uniqueName": "Lontara of Right",
 		"uniques": [
-			"Comment [+5 Strength for Coastal cities]",
-			"Comment [Recaptured cities produce 50% more [Gold] and [Culture]]",
-			"Gain a free [CoastalStrength] [in all coastal cities] <hidden from users>",
-			"Gain a free [Origin] [in this city] <upon founding a city> <hidden from users>",
-			"[+50]% [Gold] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
-			"[+50]% [Culture] [in puppeted cities] <in cities with a [Origin]> <hidden from users>",
-			"[+50]% [Gold] [in annexed cities] <in cities with a [Origin]> <hidden from users>",
-			"[+50]% [Culture] [in annexed cities] <in cities with a [Origin]> <hidden from users>"
+			"[Great Merchant] is earned [75]% faster <while the empire is happy>",
+			"[+2 Production] from each Trade Route <after discovering [Guilds]>",
+			"[+1 Food] from every [Lakes]"
 		],
-		"cities": ["Johor Bahru","Muar","Batu Pahat","Kluang","Tangkak","Kota Kara","Pekan Tua","Sayong Pinang","Johor Lama","Bukit Seluyut",
-			"Batu Sawar","Bintan","Lingga","Tambelan","Kota Tinggi","Tanjung Pinang","Panchor","Pahang","Pekan","Singapore."],
-		"spyNames": ["Muzaffar","Ma'ayat","Ibrahim","Jalil","Badrul","Muazzam","Mahmud","Rohana","Azhari","noraini"]
+		"cities": ["Tosora","Cinnotabi'","Séngkang","Pitumpanua","Paria","Passoloreng","Kéra","Pénrang","Totinco","Palippu",
+			"Rumpia","Macanang","Gilireng","Sakkoli","Akkoténgeng","Kalola","Ana'banua","Loa","Bélawa Orai","Bélawa Alau'",
+			"Data","Impakimpa'","Empaga","Témpé","Wagé"],
+		"spyNames": ["La Tenribali","Pateddungi","Tiringeng","Paléwo","Tadampare'","Mungkace'","Sangkuru","Tenrilai","Palili'","Maddukelleng"]
 	},
 ]

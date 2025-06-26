@@ -1,5 +1,21 @@
 [
 	{
+		"name": "Ngayau",
+		"uniques": [
+			"Double movement in [Jungle]",
+			"Double movement in [River]",
+			"Gain [10] [Faith] <upon defeating a [Military] unit>"
+		]
+    },
+	{
+		"name": "Poisoned Dart",
+		"uniques": [
+			"Comment [Deal extra 5 damage]",
+			"[Target Unit] takes [5] damage <upon damaging a [Military] unit> <hidden from users>"
+		]
+    },
+	
+	{
 		"name": "SingleCity",
 		"uniques": ["[This Unit] takes [100] damage <upon turn end> <if [Palace] is constructed>", 
 					"Will not be displayed in Civilopedia"]

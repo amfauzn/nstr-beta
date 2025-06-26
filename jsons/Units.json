@@ -1,13 +1,143 @@
 [
-	// Wajo
+	// Cirebon
 	{
-		"name": "Great Merchant",
+		"name": "Kemantren",
+		"unitType": "Sword",
+		"uniqueTo": "Cirebon",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Comment [Start with 15 Experience]"],
+		"attackSound": "metalhit"
+	},
+	
+	// Dayak
+	{
+		"name": "Blowdarter",
+		"unitType": "Archery",
+		"uniqueTo": "Dayak",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 60,
+		"requiredTech": "Construction",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"promotions": ["Poisoned Dart"],
+		"attackSound": "arrow"
+	},
+	
+	// Ivatan
+	{
+		"name": "Tataya",
+		"unitType": "Melee Water",
+		"uniqueTo": "Ivatan",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"May create improvements on water resources"
+		],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	
+	// Johor
+	{
+		"name": "Jurubina",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"uniqueTo": "Johor",
+		"replaces": "Worker",
+		"movement": 2,
+		"cost": 70,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action",
+			"Can build [all] improvements at a [+25]% rate"
+		]
+	},
+	{
+		"name": "Bedar",
+		"unitType": "Melee Water",
+		"uniqueTo": "Johor",
+		"replaces": "Caravel",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"[This Unit] heals [25] HP <costs [+50 Gold] stats>",
+			"May heal outside of friendly territory <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	
+	// Kaimana
+	{
+		"name": "Sabakor",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Kaimana",
+		"replaces": "Musketman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	
+	// Singapore
+	{
+		"name": "Hulubalang",
+		"unitType": "Civilian",
+		"uniqueTo": "Singapore",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Comment [Adjacent Land units in Friendly Land tiles gain 1 XP per turn]",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
+	
+	// Soppeng
+	{
+		"name": "Passiuno",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Soppeng",
+		"replaces": "Rifleman",
+		"movement": 2,
+		"strength": 34,
+		"cost": 180,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	
+	// Wajo
 	{
 		"name": "Matoa",
 		"unitType": "Civilian",
@@ -24,166 +154,5 @@
 			"Uncapturable"
 		],
 		"movement": 2
-	},
-	
-	// Kaimana
-	{
-		"name": "Rifleman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Sabakor",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Kaimana",
-		"replaces": "Rifleman",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"promotions": ["Woodsman"],
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Orang Kaya",
-		"unitType": "Civilian",
-		"uniqueTo": "Kaimana",
-		"replaces": "Great Merchant",
-		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", 
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
-			"Comment [Immediately gain 100 Gold upon gained]", 
-			"Great Person - [Gold]", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	
-	// Singapore
-	{
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Hulubalang",
-		"unitType": "Civilian",
-		"uniqueTo": "Singapore",
-		"replaces": "Great General",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"Comment [Adjacent Land units in Friendly Land tiles gain 1 XP per turn]",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
-			"Great Person - [War]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	}
-	
-	// Cirebon
-	{
-		"name": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Kemantren",
-		"unitType": "Sword",
-		"uniqueTo": "Cirebon",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"uniques": ["Comment [Start with 15 Experience]"],
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit"
-	},
-	
-	// Johor
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
-            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Jurubina",
-		"unitType": "Civilian",
-		"uniqueTo": "Johor",
-		"replaces": "Great Engineer",
-		"uniques": [
-			"Can speed up construction of a building", 
-            "Can instantly construct a [Academy] improvement <by consuming this unit>", 
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
-			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
-			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
-            "Great Person - [Production]", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Bedar",
-		"unitType": "Melee Water",
-		"uniqueTo": "Johor",
-		"replaces": "Caravel",
-		"movement": 4,
-		"strength": 20,
-		"cost": 100,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-			"[+1] Sight", 
-			"Withdraws before melee combat <with [80]% chance>", 
-			"[This Unit] heals [25] HP <costs [+100 Gold] stats>", 
-			"May heal outside of friendly territory <hidden from users>"
-		],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
 	},
 ]

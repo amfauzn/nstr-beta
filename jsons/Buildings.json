@@ -1,4 +1,174 @@
 [
+	// Asmat
+	{
+		"name": "Bisj",
+		"replaces": "Monument",
+		"uniqueTo": "Asmat",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Faith] from every specialist [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{"text": "A Bisj, Mbis or Bis pole is a ritual artifact created and used by the Asmat people of South-western New Guinea, Indonesia. This pole is erected as an act of revenge, to pay homage to the ancestors, to calm the spirits of the deceased, and to bring harmony and spiritual strength to the community."},
+		]
+	},
+	{
+		"name": "Jew",
+		"replaces": "Granary",
+		"uniqueTo": "Asmat",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Culture] per [4] population [in this city]"
+		],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "Jew, also known as the bachelor house, is an Asmat traditional house originating from the Asmat Regency, particularly from Agats. As a sacred house for the Asmat tribe, jew serves multiple functions. Apart from being a residence for unmarried men, it is also a place for meetings to resolve disputes among villagers, plan traditional ceremonies, tribal meetings, peace agreements, wars, and even conduct customary rituals. Furthermore, it is used as a storage space for carvings depicting their deceased ancestors or spirits."},
+		]
+	},
+	
+	// Cirebon
+	{
+		"name": "Tajug",
+		"replaces": "Temple",
+		"uniqueTo": "Cirebon",
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": "Tajug means small mosque in Sundanese. The first tajug was Tajug Jalagrahan. It was built on the initiative of Ki Danusela's son-in-law, Prince Walasungsang."},
+		]
+	},
+	
+	// Dayak
+	{
+		"name": "Huma Betang",
+		"replaces": "Water Mill",
+		"uniqueTo": "Dayak",
+		"food": 2,
+		"production": 1,
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Comment [Can be built in any city]",
+			"[+1 Happiness] per [5] population [in this city]"
+		],
+		"requiredTech": "The Wheel",
+		"civilopediaText": [
+			{"text": ""},
+		]
+	},
+	
+	// Ivatan
+	{
+		"name": "Idjang",
+		"uniqueTo": "Ivatan",
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Creates a [Ijang] improvement on a specific tile",
+			"Never destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Johor
+	{
+		"name": "Origin",
+		"uniques": [
+			"Unbuildable", 
+			"Never destroyed when the city is captured"
+		]
+	},
+	
+	// Kaimana
+	{
+		"name": "Masigi",
+		"replaces": "Shrine",
+		"uniqueTo": "Kaimana",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Comment [Tech [Calendar] vs [Pottery]]",
+			"Comment [Also replaces [Temple]]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Calendar",
+		"civilopediaText": [
+			{"text": "A wooden Papuan place of worship found along the coasts of the Bomberai Peninsula, particularly in regions like Fakfak, Patipi, and Kaimana."},
+		]
+	},
+	{
+		"name": "Kaimana Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Kaimana",
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Philosophy"
+	},
+	
+	// Singapore
+	{
+		"name": "Hawker Centre",
+		"uniqueTo": "Singapore",
+		"replaces": "Market",
+		"food": 2,
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+2 Food, +1 Gold] from [Great Improvement] tiles [in all cities]",
+					"Only available <in [Capital] cities>"]
+		"requiredTech": "Currency",
+		"civilopediaText": [
+			{"text": "An open-air complex built to provide a more sanitary alternative to mobile hawker carts and contain many stalls that sell different varieties of affordable meals. Dedicated tables and chairs are usually provided for diners.The centres are usually managed by a governing authority which maintains the facility and rents out stores for hawkers to ply their goods."},
+		]
+	}
+	
+	// Soppeng
+	{
+		"name": "Bola Ridie",
+		"replaces": "Armory",
+		"uniqueTo": "Soppeng",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": "A wooden Papuan place of worship found along the coasts of the Bomberai Peninsula, particularly in regions like Fakfak, Patipi, and Kaimana."},
+		]
+	},
+	
 	// Wajo
 	{
 		"name": "Harbor",
@@ -28,72 +198,5 @@
 		"civilopediaText": [
 			{"text": "A multipurpose building used as a storage of war tools and produce of the Wajo Kingdom."},
 		]
-	},
-	
-	// Singapore
-	{
-		"name": "Market",
-		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Currency"
-	},
-	{
-		"name": "Hawker Centre",
-		"uniqueTo": "Singapore",
-		"replaces": "Market",
-		"food": 2,
-		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Food, +1 Gold] from [Great Improvement] tiles [in all cities]",
-					"Only available <in [Capital] cities>"]
-		"requiredTech": "Currency",
-		"civilopediaText": [
-			{"text": "An open-air complex built to provide a more sanitary alternative to mobile hawker carts and contain many stalls that sell different varieties of affordable meals. Dedicated tables and chairs are usually provided for diners.The centres are usually managed by a governing authority which maintains the facility and rents out stores for hawkers to ply their goods."},
-		]
-	}
-	
-	// Cirebon
-	{
-		"name": "Temple",
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
-		"uniques": ["Only available <when religion is enabled>", 
-					"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Tajug",
-		"replaces": "Temple",
-		"uniqueTo": "Cirebon",
-		"faith": 2,
-		"cost": 40,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Only available <when religion is enabled>", 
-					"Destroyed when the city is captured"],
-		"requiredTech": "Philosophy",
-		"civilopediaText": [
-			{"text": "Tajug means small mosque in Sundanese. The first tajug was Tajug Jalagrahan. It was built on the initiative of Ki Danusela's son-in-law, Prince Walasungsang."},
-		]
-	},
-	
-	// Johor
-	{
-		"name": "CoastalStrength",
-		"cityStrength": 5,
-		"uniques": ["Unbuildable", 
-					"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Origin",
-		"uniques": ["Unbuildable", 
-					"Never destroyed when the city is captured"]
 	},
 ]

@@ -11,30 +11,37 @@ NationIcons/Cirebon
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Johor
+NationIcons/Dayak
   rotate: false
   xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Nias
+NationIcons/Ivatan
   rotate: false
   xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Singapore
+NationIcons/Johor
   rotate: false
   xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Toraja
+NationIcons/Kaimana
   rotate: false
   xy: 836, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Singapore
+  rotate: false
+  xy: 1044, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

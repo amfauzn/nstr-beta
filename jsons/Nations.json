@@ -193,7 +193,8 @@
 			"Gain [75] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in capital]> <hidden from users>",
 			"Gain [150] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in capital]> <hidden from users>",
 			"Gain [225] [Culture] <(modified by game speed)> <upon constructing [Museum] [in capital]> <hidden from users>",
-			"Gain [375] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in capital]> <hidden from users>"
+			"Gain [375] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in capital]> <hidden from users>",
+			"Gain a free [Kaimana Temple] [in all cities] <in cities with a [Masigi]> <hidden from users>"
 		],
 		"cities": ["Kaimana","Namatota","Argun","Marsi","Simora","Lawairawu","Matua","Bitsjari","Lobo","Aiduma",
 			"Lahakia","Kilimala","Karawatu","Borombouw","Wanggita","Bahumia","Sermuku","Tairi","Esania","Murubia",

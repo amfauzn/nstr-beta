@@ -121,9 +121,7 @@
 		"name": "Kaimana Temple",
 		"replaces": "Temple",
 		"uniqueTo": "Kaimana",
-		"faith": 2,
-		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"faith": 0,
 		"requiredBuilding": "Shrine",
 		"uniques": [
 			"Unbuildable",

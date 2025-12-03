@@ -75,18 +75,6 @@
 		]
 	},
 	
-	// Ivatan
-	{
-		"name": "Idjang",
-		"uniqueTo": "Ivatan",
-		"requiredTech": "Engineering",
-		"uniques": [
-			"Creates a [Ijang] improvement on a specific tile",
-			"Never destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	
 	// Johor
 	{
 		"name": "Origin",

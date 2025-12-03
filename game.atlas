@@ -1,9 +1,30 @@
 
 game.png
-size: 2048, 256
+size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+LeaderIcons/Leader
+  rotate: false
+  xy: 4, 212
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Naro'e
+  rotate: false
+  xy: 268, 212
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+LeaderIcons/Sang Nila Utama
+  rotate: false
+  xy: 532, 212
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 NationIcons/Cirebon
   rotate: false
   xy: 4, 4
@@ -13,35 +34,28 @@ NationIcons/Cirebon
   index: -1
 NationIcons/Dayak
   rotate: false
-  xy: 212, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Ivatan
-  rotate: false
-  xy: 420, 4
+  xy: 796, 268
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Johor
   rotate: false
-  xy: 628, 4
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Kaimana
   rotate: false
-  xy: 836, 4
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Singapore
   rotate: false
-  xy: 1044, 4
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

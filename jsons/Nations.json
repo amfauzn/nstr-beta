@@ -90,7 +90,7 @@
 			"Bangkanai","Muara Montalat","Saripoi","Sadok Hill","Sintang","Mari Mari","Sikan","Putussibau","Kalanaman","Mamahak"],
 		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
 	},
-	
+	/*
 	{
 		"name": "Ivatan",
 		"leaderName": "Aman Dangat",
@@ -124,7 +124,7 @@
 			"Salagao","Mahatao","Diura","Kaumbakan","Panatayan","Uyugan","Imnajbu","Itbud"],
 		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
 	},
-	
+	*/
 	{
 		"name": "Johor", // 1528–1855
 		"leaderName": "Alaudin Riayat Shah II",

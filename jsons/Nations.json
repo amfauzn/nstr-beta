@@ -3,6 +3,7 @@
 		"name": "Asmat",
 		"leaderName": "Fumeripits",
 		"adjective": ["Asmat"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "",
@@ -63,7 +64,7 @@
 	
 		{
 		"name": "Dayak",
-		"leaderName": "Leader",
+		"leaderName": "Rentap",
 		"adjective": ["Dayaknese"],
 		"startBias": ["Jungle","Fresh water"],
 		"preferredVictoryType": "Cultural",
